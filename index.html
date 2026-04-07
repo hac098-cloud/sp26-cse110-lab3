@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for a sample team meeting">
+    <title>Haolong Chen's Meeting Minutes</title>
+  </head>
+  <body>
+    <header>
+      <h1>Haolong Chen's Meeting Minutes</h1>
+      <h2>Weekly Project Planning Meeting</h2>
+      <h3>Date: 04/07/2026</h3>
+
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished">Unfinished Business</a></li>
+          <li><a href="#new">New Business</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#comments">Comments</a></li>
+          <li><a href="#form">Feedback Form</a></li>
+        </ul>
+      </nav>
+
+      <p>
+        This page records the notes from our weekly team meeting.
+        <strong>Important decisions</strong> are highlighted clearly,
+        while <em>discussion ideas</em> are included for future review.
+      </p>
+      <p>
+        Our team goal is to build a <b>simple scheduling app</b> for students.<br>
+        Today we focused on planning and assigning tasks.
+      </p>
+
+      <hr>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <div>
+          <p>The following members attended the meeting:</p>
+          <ul>
+            <li>Haolong Chen</li>
+            <li>Alice Chen</li>
+            <li>Brian Lee</li>
+            <li>Sarah Kim</li>
+          </ul>
+        </div>
+        <p><span>Absent:</span> David Wong</p>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review progress from last meeting</li>
+          <li>Discuss app features</li>
+          <li>Assign roles for this week</li>
+          <li>Set next meeting date</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <ul>
+          <li>Finalize the project topic</li>
+          <li>Decide whether to use a calendar view or a task-list view</li>
+          <li>Finish the rough homepage sketch</li>
+        </ul>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <p>
+          The team discussed possible features for the first version of the project.
+          <i>A major suggestion</i> was to keep the design simple and focus on core functions first.
+        </p>
+
+        <ul>
+          <li>User login system</li>
+          <li>Create and edit tasks</li>
+          <li>Weekly schedule overview</li>
+          <li>Reminder notifications in a later version</li>
+        </ul>
+
+        <details>
+          <summary>Click to view the main decision from the meeting</summary>
+          <p>
+            The team agreed to first build a basic student scheduler with task creation,
+            due dates, and a weekly overview page.
+          </p>
+        </details>
+      </section>
+
+      <section id="media">
+        <h2>Meeting Media</h2>
+
+        <h3>Diagram / Whiteboard Photo</h3>
+        <img src="example.jpg" alt="Whiteboard diagram of the student scheduler app design">
+
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="meeting-audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Recording</h3>
+        <video controls width="400">
+          <source src="meeting-video.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <section id="comments">
+        <h2>Miscellaneous Comments / Questions / Concerns</h2>
+        <ul>
+          <li>Should we support dark mode in the future?</li>
+          <li>Do we want a shared team calendar?</li>
+          <li>Can we make the homepage easier to use for new students?</li>
+        </ul>
+
+        <p>
+          Helpful reference:
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">
+            MDN HTML Documentation
+          </a>
+        </p>
+      </section>
+
+      <section id="form">
+        <h2>Team Feedback Form</h2>
+
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+              <label for="meeting-date">Meeting Date:</label>
+              <input type="date" id="meeting-date" name="meeting-date">
+            </p>
+
+            <p>Which topics were useful?</p>
+            <p>
+              <input type="checkbox" id="planning" name="useful-topic" value="planning">
+              <label for="planning">Planning</label>
+            </p>
+            <p>
+              <input type="checkbox" id="design" name="useful-topic" value="design">
+              <label for="design">Design Discussion</label>
+            </p>
+
+            <p>Would you attend this meeting format again?</p>
+            <p>
+              <input type="radio" id="yes" name="attend-again" value="yes">
+              <label for="yes">Yes</label>
+            </p>
+            <p>
+              <input type="radio" id="no" name="attend-again" value="no">
+              <label for="no">No</label>
+            </p>
+
+            <p>
+              <label for="tool">Preferred development tool:</label>
+              <input list="tools" id="tool" name="tool">
+              <datalist id="tools">
+                <option value="VS Code"></option>
+                <option value="IntelliJ"></option>
+                <option value="GitHub Codespaces"></option>
+                <option value="Vim"></option>
+              </datalist>
+            </p>
+
+            <p>
+              <label for="role">Select your team role:</label>
+              <select id="role" name="role">
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="tester">Tester</option>
+                <option value="manager">Manager</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="notes">Additional Notes:</label>
+            </p>
+            <p>
+              <textarea id="notes" name="notes" rows="5" cols="40"></textarea>
+            </p>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Created for CSE 110 Lab 2</p>
+      <p>Last updated: 04/07/2026</p>
+    </footer>
+  </body>
+</html>
