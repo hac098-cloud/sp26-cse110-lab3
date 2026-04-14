@@ -1,0 +1,180 @@
+/* Main stylesheet for Lab 3 meeting minutes */
+:root {
+  --main-bg: #f4f4f4;
+  --card-bg: hsl(0, 0%, 100%);
+  --accent-color: rgb(40, 90, 180);
+  --soft-border: #999999;
+  --title-color: color-mix(in srgb, blue 70%, white 30%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg, lightgray);
+  color: rgba(30, 30, 30, 0.95);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#attendance {
+  min-width: 300px;
+}
+
+.highlight-box {
+  background-color: #eef6ff;
+}
+
+h1 {
+  color: var(--title-color, blue);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2.2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-style: solid;
+  border-color: var(--soft-border, gray);
+  border-width: 2px;
+  border-radius: 12px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  margin: 20px auto 30px auto;
+  width: 90%;
+  max-width: 60rem;
+  position: sticky;
+  top: 0;
+}
+
+section {
+  background-color: var(--card-bg, white);
+  border: 0.15cm solid #bbbbbb;
+  border-radius: 10px;
+  padding: 1em 1.5em 1em 1.5em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85vw;
+  max-width: 900px;
+}
+
+p {
+  color: hsl(220, 20%, 20%);
+  line-height: 1.6;
+}
+
+nav ul {
+  background-color: #ffffff;
+  padding: 10px 25px 10px 25px;
+}
+
+section > h2 {
+  color: orange;
+}
+
+h2 ~ p {
+  font-size: 1rem;
+}
+
+h3 + img {
+  border: 3px solid black;
+}
+
+section.highlight-box {
+  border-color: blue;
+}
+
+a[target="_blank"] {
+  color: purple;
+}
+
+span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+details {
+  display: block;
+}
+
+audio {
+  display: inline;
+}
+
+.hidden-note {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+}
+
+img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  width: 25rem;
+  max-width: 100%;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin: 10px;
+  padding: 5mm;
+}
+
+fieldset {
+  background-color: #e6f2ff;
+}
+
+main section {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+main ul {
+  padding-left: 2rem;
+}
+
+section:has(img) {
+  background-color: #fdfdfd;
+}
+
+@media (max-width: 700px) {
+  body {
+    background-color: #e8f5e9;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  nav ul {
+    padding-left: 1rem;
+  }
+}
