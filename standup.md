@@ -1,30 +1,58 @@
----
-name: Task
-about: Create a task for lab work
-title: ''
-labels: ''
-assignees: ''
+# Daily Standup Notes Template
 
----
+## Meeting Information
+- **Date:** 
+- **Time:** 
+- **Location / Platform:** 
+- **Facilitator:** 
 
----
-name: Task
-about: Create a task for lab work
-title: "[Task] "
-labels: ""
-assignees: ""
----
+## Team Members Present
+- 
+- 
+- 
+- 
 
-## Task Summary
-Describe the task briefly.
+## Yesterday
+What did each team member finish since the last standup?
 
-## What needs to be done
-- [ ] Step 1
-- [ ] Step 2
-- [ ] Step 3
+- **Member 1:** 
+- **Member 2:** 
+- **Member 3:** 
+- **Member 4:** 
 
-## Related files
-List any files that may be changed.
+## Today
+What is each team member planning to work on today?
 
-## Additional notes
-Add any extra details here.
+- **Member 1:** 
+- **Member 2:** 
+- **Member 3:** 
+- **Member 4:** 
+
+## Blockers
+Is anything slowing down progress or preventing work from moving forward?
+
+- **Member 1:** 
+- **Member 2:** 
+- **Member 3:** 
+- **Member 4:** 
+
+## Questions / Discussion Points
+- 
+- 
+- 
+
+## Action Items
+- [ ] 
+- [ ] 
+- [ ] 
+
+## Next Steps
+- 
+- 
+- 
+
+## Notes
+Additional updates, reminders, or important context:
+
+- 
+- 
