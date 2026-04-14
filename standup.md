@@ -1,58 +1,73 @@
-# Daily Standup Notes Template
+# Daily Standup Meeting
 
-## Meeting Information
-- **Date:** 
-- **Time:** 
-- **Location / Platform:** 
-- **Facilitator:** 
+## Date and Time
+**Date:**  
+**Time:**  
+**Location / Platform:**  
 
-## Team Members Present
+---
+
+## Participants
 - 
 - 
 - 
 - 
 
-## Yesterday
-What did each team member finish since the last standup?
+---
 
-- **Member 1:** 
-- **Member 2:** 
-- **Member 3:** 
-- **Member 4:** 
+## Standup Type
+Daily progress check-in / sprint update / team sync
 
-## Today
-What is each team member planning to work on today?
+---
 
-- **Member 1:** 
-- **Member 2:** 
-- **Member 3:** 
-- **Member 4:** 
+## Reference Materials
+Add links, notes, tickets, or documents that may be discussed in this standup.
 
-## Blockers
-Is anything slowing down progress or preventing work from moving forward?
-
-- **Member 1:** 
-- **Member 2:** 
-- **Member 3:** 
-- **Member 4:** 
-
-## Questions / Discussion Points
 - 
 - 
 - 
+
+---
+
+## Goals and Progress Overview
+
+| Team Member | Completed Since Last Standup | Working On Today | Blockers |
+|------------|------------------------------|------------------|----------|
+| Member 1   |                              |                  |          |
+| Member 2   |                              |                  |          |
+| Member 3   |                              |                  |          |
+| Member 4   |                              |                  |          |
+
+---
+
+## Important Discussion Topics
+
+| Topic | Description | Result / Decision |
+|------|-------------|-------------------|
+|      |             |                   |
+|      |             |                   |
+|      |             |                   |
+
+---
 
 ## Action Items
-- [ ] 
-- [ ] 
-- [ ] 
 
-## Next Steps
-- 
-- 
-- 
+- [ ] Task 1 — Assigned to:  
+- [ ] Task 2 — Assigned to:  
+- [ ] Task 3 — Assigned to:  
+
+---
 
 ## Notes
-Additional updates, reminders, or important context:
+Add extra comments, reminders, or important updates here.
 
 - 
 - 
+- 
+
+---
+
+## Next Standup
+**Date:**  
+**Time:**  
+**Expected Focus:**  
