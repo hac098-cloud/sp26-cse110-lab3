@@ -1,73 +1,62 @@
-# Daily Standup Meeting
+# Team Standup Notes
 
-## Date and Time
-**Date:**  
-**Time:**  
-**Location / Platform:**  
-
----
-
-## Participants
-- 
-- 
-- 
-- 
+## Basic Info
+- Date:  
+- Time:  
+- Meeting Type: (Daily / Sprint / Quick Sync)  
+- Platform:  
 
 ---
 
-## Standup Type
-Daily progress check-in / sprint update / team sync
-
----
-
-## Reference Materials
-Add links, notes, tickets, or documents that may be discussed in this standup.
-
+## Team Members Present
 - 
 - 
 - 
 
 ---
 
-## Goals and Progress Overview
+## Progress Update
 
-| Team Member | Completed Since Last Standup | Working On Today | Blockers |
-|------------|------------------------------|------------------|----------|
-| Member 1   |                              |                  |          |
-| Member 2   |                              |                  |          |
-| Member 3   |                              |                  |          |
-| Member 4   |                              |                  |          |
+### What was done since last meeting
+- Member 1:  
+- Member 2:  
+- Member 3:  
 
----
+### What will be done today
+- Member 1:  
+- Member 2:  
+- Member 3:  
 
-## Important Discussion Topics
-
-| Topic | Description | Result / Decision |
-|------|-------------|-------------------|
-|      |             |                   |
-|      |             |                   |
-|      |             |                   |
+### Any blockers
+- Member 1:  
+- Member 2:  
+- Member 3:  
 
 ---
 
-## Action Items
+## Discussion Points
+- Topic 1:  
+  - Notes:  
+  - Decision:  
 
-- [ ] Task 1 — Assigned to:  
-- [ ] Task 2 — Assigned to:  
-- [ ] Task 3 — Assigned to:  
+- Topic 2:  
+  - Notes:  
+  - Decision:  
 
 ---
 
-## Notes
-Add extra comments, reminders, or important updates here.
+## Tasks / To-Do
+- [ ] Task description (Assigned to: )
+- [ ] Task description (Assigned to: )
 
+---
+
+## Additional Notes
 - 
 - 
-- 
 
 ---
 
-## Next Standup
-**Date:**  
-**Time:**  
-**Expected Focus:**  
+## Next Meeting
+- Date:  
+- Focus:  
