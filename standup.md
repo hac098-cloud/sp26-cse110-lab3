@@ -59,4 +59,5 @@
 
 ## Next Meeting
 - Date:  
-- Focus:  
+  
+  <!-- updated for issue #2 -->
