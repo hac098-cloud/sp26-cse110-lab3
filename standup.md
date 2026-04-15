@@ -60,4 +60,4 @@
 ## Next Meeting
 - Date:  
 - Focus:  
-  /* update for issue #4 */
+  
